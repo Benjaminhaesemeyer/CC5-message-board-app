@@ -1,0 +1,27 @@
+{
+  "name": "cc5-message-board-app",
+  "version": "1.0.0",
+  "description": "Instructions",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Benjaminhaesemeyer/CC5-message-board-app.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Benjaminhaesemeyer/CC5-message-board-app/issues"
+  },
+  "homepage": "https://github.com/Benjaminhaesemeyer/CC5-message-board-app#readme",
+  "dependencies": {
+    "angular": "^1.6.5",
+    "angular-route": "^1.6.5",
+    "body-parser": "^1.17.2",
+    "bootstrap": "^3.3.7",
+    "express": "^4.15.3",
+    "mongoose": "^4.11.4"
+  }
+}
