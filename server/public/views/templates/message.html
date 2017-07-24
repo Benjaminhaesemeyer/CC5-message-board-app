@@ -1,0 +1,22 @@
+<div class="container" ng-controller="MessageController as mc">
+  <div class="row">
+      <div class="col-md-12">
+          <label for="name">Name: </label>
+          <input type="text" ng-model="mc.messages.name" id="name" placeholder=""/>
+          <label for="location">Message: </label>
+          <input type="text" ng-model="mc.messages.memo" id="message" placeholder="" />
+          <button class="btn btn-primary" ng-click="addMessage()">Post Message</button>
+      </form>
+      </div>
+  </div>
+
+  <div class="row">
+    <div class="col-md-12">
+        <div ng-repeat="person in mc.messages" class="well col-md-3">
+          <p>Name: {{person.name}}</p>
+          <p>Message: {{person.memo}}</p>
+        </div>
+    </div>
+  </div>
+
+</div>
